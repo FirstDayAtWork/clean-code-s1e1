@@ -1,4 +1,3 @@
-/* Basic Style */
 body {
   background-color: #f8f8f8;
   color: #333;
@@ -16,7 +15,6 @@ body {
 .header-link {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .header {
     text-align: center;
@@ -60,11 +58,9 @@ h3 {
 .button:hover {
   color: #3a3a3a;
 }
-/* Heading */
 .header2 {
   margin: 16px 0;
 }
-
 .header3,
 .add-item-label {
   color: #333;
@@ -90,8 +86,6 @@ h3 {
 .input-txt:focus {
   color: #333;
 }
-
-/* New Task */
 .add-item-label {
   display: block;
   margin: 0 0 20px;
@@ -99,8 +93,6 @@ h3 {
 #new-task {
   width: 318px;
 }
-
-/* Task list */
 .list {
   overflow: hidden;
   padding: 20px 0;
@@ -112,7 +104,6 @@ h3 {
 .list > * {
   vertical-align: middle;
 }
-
 .input-checkbox {
   margin: 0 10px;
 }
@@ -134,20 +125,14 @@ h3 {
 .delete-img:hover {
   transform: rotateZ(0);
 }
-
-/* Completed */
 .completed-tasks > .task-label {
   text-decoration: line-through;
   color: #888;
 }
-
-/* Edit Task */
-
 .edit-mode > .input-txt {
   display: inline-block;
   width: 224px;
 }
-
 .edit-mode > .task-label {
   display: none;
 }
