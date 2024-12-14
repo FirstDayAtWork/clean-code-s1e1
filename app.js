@@ -73,7 +73,6 @@ function ajaxRequest(){
   console.log("AJAX Request");
 }
 
-addButton.onclick=addTask;
 addButton.addEventListener("click", addTask);
 addButton.addEventListener("click", ajaxRequest);
 
