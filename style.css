@@ -125,14 +125,14 @@ h3 {
 .delete-img:hover {
   transform: rotateZ(0);
 }
-.completed-tasks > .task-label {
+#completed-tasks .task-label {
   text-decoration: line-through;
   color: #888;
 }
-.edit-mode > .input-txt {
+.edit-mode .input-txt {
   display: inline-block;
   width: 224px;
 }
-.edit-mode > .task-label {
+.edit-mode .task-label {
   display: none;
 }
