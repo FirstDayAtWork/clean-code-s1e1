@@ -60,6 +60,9 @@
   color: #3a3a3a;
 }
 /* Heading */
+.header2 {
+  margin: 16px 0;
+}
 .header3,
 .add-item-label {
   color: #333;
