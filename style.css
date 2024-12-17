@@ -28,7 +28,7 @@
 .task-label, .input-txt {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -109,7 +109,7 @@
   width: 226px;
 }
 .list > .input-txt {
-  width: 226px
+  width: 226px;
 }
 .delete-img {
   height: 2em;
@@ -120,7 +120,7 @@
   transform: rotateZ(0);
 }
 #completed-tasks .task-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
