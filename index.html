@@ -17,16 +17,14 @@
       </a>
     </header>
     <main class="main">
-      <div class="add-items-wrapper">
-        <h2 class="header2" id="add-item">
-          <label class="add-item-label" for="new-task">Add Item</label>
-          <div class="task-row-wrapper">
-            <input class="input input-txt" id="new-task" type="text">
-            <button class="button add-item-btn">Add</button>
-          </div>
-        </h2>
-      </div>
-      <div class="todo-list-wrapper">
+      <section class="add-items-wrapper">
+        <h2 class="header2" id="add-item">Add Item</h2>
+        <div class="task-row-wrapper">
+          <input class="input input-txt" id="new-task" type="text">
+          <button class="button add-item-btn">Add</button>
+        </div>
+      </section>
+      <section class="todo-list-wrapper">
         <h3 class="header3">Todo</h3>
         <ul id="todo-list">
           <li class="list todo-list-item">
@@ -48,8 +46,8 @@
             </button>
           </li>
         </ul>
-      </div>
-      <div class="completed-tasks-wrapper">
+      </section>
+      <section class="completed-tasks-wrapper">
         <h3 class="header3">Completed</h3>
         <ul id="completed-tasks">
           <li class="list completed-task-item">
@@ -62,7 +60,7 @@
             </button>
           </li>
         </ul>
-      </div>
+      </section>
     </main>
     <script src="app.js"></script>
   </body>
