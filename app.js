@@ -19,10 +19,10 @@ function createNewTaskElement(taskString){
   checkBox.type = "checkbox";
   checkBox.className = "input input-checkbox";
   editInput.type = "text";
-  editInput.className="input input-txt";
+  editInput.className = "input input-txt";
 
   editButton.innerText = "Edit";
-  editButton.className="button edit";
+  editButton.className = "button edit";
 
   deleteButton.className = "button delete";
   deleteButtonImg.src = "./remove.svg";

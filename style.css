@@ -59,7 +59,6 @@
 .button:hover {
   color: #3a3a3a;
 }
-/* Heading */
 .header2 {
   margin: 16px 0;
 }
@@ -117,21 +116,20 @@
 }
 .list > .input-txt {
   width: 226px;
+  display: none;
 }
 .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete-img:hover{
+.delete-img:hover {
   transform: rotateZ(0);
 }
 #completed-tasks .task-label {
   text-decoration: line-through;
   color: #888;
 }
-
-/* Edit Task */
 .edit-mode .input-txt {
   display: inline-block;
   width: 224px;
