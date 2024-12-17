@@ -15,7 +15,7 @@
 .header-link {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .header {
     text-align: center;
   }
@@ -34,14 +34,14 @@
   display: flex;
 }
 #todo-list, #completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list, .header3 {
-  list-style:none;
+  list-style: none;
 }
 .input,.button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
